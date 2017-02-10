@@ -1,0 +1,318 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+#header
+{
+	
+	height: 170px;
+	width:1020px;
+	background-color:#0066CC;
+	font-family: arial;
+	font-size: 20px;
+	padding: 30px;
+	margin-top: 10px;
+	border-radius: 10px;
+
+}
+#header h1
+{
+
+	float:right;
+	margin-rignt:10px;
+	padding-right:150px;
+	margin-top:50px;
+}
+#header h2
+{
+	float:right;
+	padding-right:150px;
+
+}
+
+#header img
+{
+	
+	height:180px;
+	width: 200px;
+	border-radius: 100px;
+	float: left;
+	
+
+
+}
+#header img:hover
+{
+	opacity:10;
+	cursor:pointer;
+}
+
+#nav
+{
+	width: 1060px;
+	background-color:#009966;
+	height: 30px;
+	border-radius:5px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+
+#nav ul a
+{
+	display:block;
+	color:yellow;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#nav ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#nav ul li 
+{
+	display: inline;
+	position:relative;
+}
+#nav ul li a 
+{
+	text-decoration:none;
+	color:#fff;
+	font:20px 'Cambria';
+	float: left;
+	padding: 5px 23px;
+}
+#nav ul li a:hover
+{
+	color: yellow;
+	background-color: light green;
+
+}
+
+#nav ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#66CCFF;
+	padding:0
+}
+
+#nav ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#nav ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#nav ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#nav ul li:hover > ul
+{
+	display:block
+}
+
+#wrapper
+{
+	height:1000px;
+	width: 1080px;
+	background-color:white;
+
+
+}
+#content
+{
+    margin-top:5px;
+	background-color:gray;
+	height:850px;
+	width:1079px;
+	text-align:left;
+	border-style: line;
+	border-style-color:grey;
+	border-radius: 10px;
+	
+}
+
+#content form
+{
+	height: 700px;
+	width: 850px;
+	margin-top:20px;
+	margin-right:100px;
+	float:right;
+	border-radius:10px;
+		
+
+
+}
+
+
+#content h3
+{
+	color:#903;
+	font-family:  'Arial Narrow';
+	font-size: 20px;
+	font-weight: lighter;
+	padding: 5px;
+}
+#content input
+{
+	height: 30px;
+	width: 250px;
+}
+#content input[type='text']
+{
+	text-indent: 5px;
+	border-color:gray;
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: 15px;
+	padding-right: 30px;
+
+}
+
+#content textarea
+{
+	text-indent: 5px;
+	border-color:gray;
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: 18px;
+	padding-right: 30px;
+
+}
+#content input[type='password']
+{	text-indent: 5px;
+	
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: 15px;
+	padding-right: 30px;
+}
+#content input[type='submit']
+{
+	width: 80px;
+	height: 30px;
+	background-color: black;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+#content input[type='reset']
+{
+	width: 80px;
+	height: 30px;
+	background-color: black;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+#content a
+{
+	width: 90px;
+	height: 40px;
+	background-color: black;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px;
+	padding-left:15px;
+	backgroun-width: 60px;
+	backgroun-height: 50px;
+	border-radius: 4px;
+
+}
+#rcontent a{
+	border:none;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+
+}
+#content input[type='submit']:hover
+{
+	background-color: gray;
+	color: orange;
+}
+#content input[type='reset']:hover
+{
+	background-color: gray;
+	color: orange;
+}
+#content a:hover
+{
+	background-color: orange;
+	
+
+}
+#footer
+{
+	margin-top: 5px;
+	background-color:#009966;
+	height:55px;
+	width:1082px;
+	border-radius: 10px;
+	margin-bottom:8px;
+
+}
+#foot p
+{
+	text-align:center;
+	
+	font-size:22px;
+	margin-top:8px;
+	font-family:comic sans;
+	color:white;
+}
+
+#order {
+        width:600px;
+        margin:0 auto;
+        font-family:Verdana, sans-serif;
+    }
+    legend {
+        color:#0481b1;
+        font-size:16px;
+        padding:0 10px;
+        background:#fff;
+        -moz-border-radius:4px;
+        box-shadow: 0 1px 5px rgba(4, 129, 177, 0.5);
+        padding:5px 10px;
+        text-transform:uppercase;
+        font-family:Helvetica, sans-serif;
+        font-weight:bold;
+    }
+    fieldset {
+    	align:center;
+        border-radius:10px;
+        background:	#0066CC; 
+        background: -moz-linear-gradient(#0066CC, #f9fdff);
+        background: -o-linear-gradient(#0066CC, #f9fdff);
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0066CC), to(#f9fdff)); /
+        background: -webkit-linear-gradient(#0066CC, #f9fdff);
+        padding:20px;
+        border-color:rgba(4, 129, 177, 0.4);
+    }
